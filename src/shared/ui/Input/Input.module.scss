@@ -1,0 +1,48 @@
+.InputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--extralight-grey);
+    border: 2px solid var(--extralight-grey);
+    padding: 16px;
+    font: var(--font-l);
+    width: fit-content;
+}
+
+.Focused {
+    background: var(--white);
+
+    .Label {
+        font: var(--font-s);
+        top: 8px;
+        left: 16px;
+    }
+
+    .Input {
+        opacity: 1;
+    }
+}
+
+.Label {
+    position: absolute;
+    color: var(--dark-grey);
+}
+
+.Input {
+    opacity: 0;
+    outline: none;
+    transform: translateY(12px);
+}
+
+.SuccesIcon {
+    path {
+        fill: var(--green-success);
+    }
+}
+
+.ErrorIcon {
+    path {
+        fill: var(--dangerous);
+    }
+}
