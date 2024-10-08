@@ -1,15 +1,16 @@
-import { Button } from "@/shared/ui/Button/Button";
-import { MainLayout } from "@/shared/layout/MainLayout/MainLayout";
-import { Input } from "@/shared/ui/Input/Input";
+import { CardSlider } from "@/features/CardSlider/CardSlider";
+import { VStack } from "@/shared/ui/Stack/VStack/VStack";
+import { Info } from "@/widgets/Info/Info";
+import { Intro } from "@/widgets/Intro/Intro";
+import { Steps } from "@/widgets/Steps/Steps/Steps";
 
 export const App = () => {
     return (
-        <div>
-            <MainLayout
-                content={<Button>test</Button>}
-                footer={<Input label="test" />}
-                header={<div>header</div>}
-            />
-        </div>
+        <VStack max gap="80">
+            <Intro />
+            <Steps />
+            <Info />
+            <CardSlider />
+        </VStack>
     );
 };

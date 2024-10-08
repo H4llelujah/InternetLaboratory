@@ -1,0 +1,29 @@
+.cardSlider {
+    background-color: var(--extralight-grey);
+}
+.reviewText {
+    margin: 32px 0;
+}
+
+.slick-slide {
+    >div { // automatically generated 'div' by 'react-slick'
+      margin-inline: 15px; //  space between slides / 2
+      margin-bottom: 50px;
+    }
+  }
+
+.slick-dots {
+    li {
+        button {
+            &::before {
+                color: var(--primary-color);
+            }
+            
+        }
+        
+    }
+}
+
+.slider {
+    margin-bottom: 50px;
+}

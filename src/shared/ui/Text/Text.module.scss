@@ -24,6 +24,12 @@
     }
 }
 
+.h5 {
+    .title {
+        font: var(--font-header-h5);
+    }
+}
+
 .size_m {
 
     .title {
@@ -32,6 +38,12 @@
 
     .text {
         font: var(--font-m);
+    }
+}
+
+.h2 {
+    .title {
+        font: var(--font-header-h2);
     }
 }
 

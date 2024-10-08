@@ -1,0 +1,22 @@
+.AppLogo {
+    position: relative;
+    width: 36px;
+    height: 24px;
+}
+
+.leftCircle {
+    background-color: var(--primary-color);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.rightCircle {
+    background-color: var(--light-grey);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}

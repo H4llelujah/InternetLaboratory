@@ -1,0 +1,16 @@
+.imgBlock {
+    position: relative;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.picture {
+    z-index: 1;
+}
+
+.pictureBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
