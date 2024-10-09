@@ -32,12 +32,10 @@ export const Input = memo((props: InputProps) => {
 
     const onFocus = () => {
         setIsFocused(true);
-        console.log(1);
     };
 
     const onBlur = () => {
         setIsFocused(false);
-        console.log(2);
     };
 
     return (

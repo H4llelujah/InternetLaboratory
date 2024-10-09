@@ -62,10 +62,15 @@ export const CardSlider = memo((props: CardSliderProps) => {
     }
 
     return (
-        <div className={classNames('cardSlider', {}, [className, 'wrapper'])}>
-            
-                <Text className='reviewText' size="h2" title="Отзывы" align="center" />
-                <Slider className='slider' {...settings}>
+        <div className={classNames('cardSlider', {}, [className])}>
+            <div className='wrapper'>
+                <Text
+                    className="reviewText"
+                    size="h2"
+                    title="Отзывы"
+                    align="center"
+                />
+                <Slider className="slider" {...settings}>
                     {reviews.map((review, index) => (
                         <div key={index} className={''}>
                             <ReviewCard
@@ -76,7 +81,7 @@ export const CardSlider = memo((props: CardSliderProps) => {
                         </div>
                     ))}
                 </Slider>
-            
+            </div>
         </div>
     )
 })

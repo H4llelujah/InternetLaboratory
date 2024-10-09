@@ -1,0 +1,38 @@
+.Accordion {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    width: 100%;
+    background: none;
+    border-top: 1px solid var(--light-grey);
+    cursor: pointer;
+}
+
+.buttonText {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.text {
+    line-height: 32px;
+    font-size: 18px;
+    color: var(--dark-grey);
+    overflow: hidden;
+    display: none;
+    margin-bottom: 24px;
+}
+
+.Open {
+    .text {
+        display: block;
+    }
+    .Icon {
+        transform: rotate(45deg);
+    }
+}
